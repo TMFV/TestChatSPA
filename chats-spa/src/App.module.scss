@@ -1,0 +1,16 @@
+$mobile-viewport: 480px;
+$tablet-viewport: 768px;
+$desktop-viewport: 1366px;
+$general-font: 'Quicksand', sans-serif;
+$base-background-color: #f4f4f4;
+$border-color: #d9d9d9;
+$input-search-text-color: #767676;
+$q: #ecebf0;
+
+.App {
+  display: block;
+  font-family: $general-font;
+  & .MainToolbar {
+    background-color: $base-background-color;
+  }
+}

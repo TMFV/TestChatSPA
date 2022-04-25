@@ -1,0 +1,19 @@
+@import '../../App.module.scss';
+
+.ItemContact {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  border-bottom: 1px solid $border-color;
+  & .ContactAvatar {
+    display: block;
+    margin: auto 20px;
+  }
+  & .ContactInfo {
+    & .ContactName {
+    }
+    & .ContactMessage {
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import '../../App.module.scss';
+
+.searching {
+  & .container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px 20px;
+  }
+  & .input {
+    width: 100%;
+    border-color: $border-color;
+    border-radius: 25px;
+    border-style: solid;
+    min-height: 35px;
+    padding-left: 20px;
+    font-family: $general-font;
+    font-size: 18px;
+    text-align: center;
+    color: $input-search-text-color;
+  }
+  & .label {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    top: 23px;
+    left: 35px;
+    height: 14px;
+
+    & .icon {
+      display: block;
+      height: 18px;
+      width: 18px;
+      background-image: url(../../assets/icons/SearchIcon.svg);
+    }
+  }
+}

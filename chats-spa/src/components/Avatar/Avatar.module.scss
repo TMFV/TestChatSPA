@@ -1,0 +1,30 @@
+.avatar {
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  & .container {
+    border-radius: 20px;
+    background-color: #ebecf0;
+    overflow: hidden;
+
+    & .avatarIcon {
+      display: block;
+      width: 40px;
+      height: 40px;
+      background: no-repeat center/90% url(../../assets/icons/UserAvatar.svg);
+      & .avatarPhoto {
+        display: block;
+        width: 40px;
+        height: 40px;
+      }
+    }
+    & .onlineIcon {
+      position: absolute;
+      width: 20px;
+      height: 15px;
+      bottom: -9%;
+      right: -18%;
+    }
+  }
+}

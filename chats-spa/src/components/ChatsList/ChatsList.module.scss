@@ -1,0 +1,10 @@
+.chatList {
+  display: block;
+  width: 100%;
+  & .title {
+    margin: 20px 20px 20px 20px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #1f9cc6;
+  }
+}
