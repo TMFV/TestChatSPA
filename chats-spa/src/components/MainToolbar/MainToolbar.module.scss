@@ -1,0 +1,16 @@
+@import '../../App.module.scss';
+
+.ToolbarContainer {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+  & .MainToolbar {
+    height: 130px;
+    background-color: $base-background-color;
+    & .ToolbarAvatar {
+      display: flex;
+      padding: 20px 20px 5px 20px;
+    }
+  }
+}

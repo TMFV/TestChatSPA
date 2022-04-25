@@ -6,6 +6,21 @@ function ChatsList() {
     <div className={styles.chatList}>
       <h3 className={styles.title}>Chats</h3>
       <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
+      <ChatItemContact />
     </div>
   );
 }

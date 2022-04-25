@@ -4,7 +4,6 @@ function OnlineIcon() {
       focusable='false'
       aria-hidden='true'
       viewBox='0 0 24 24'
-      tabindex='-1'
       title='avatar'
     >
       <path

@@ -6,14 +6,30 @@
   width: 100%;
   height: 70px;
   border-bottom: 1px solid $border-color;
-  & .ContactAvatar {
-    display: block;
-    margin: auto 20px;
-  }
-  & .ContactInfo {
-    & .ContactName {
+  & .ContactContainer {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    & .ContactAvatar {
+      display: block;
+      margin: auto 20px;
     }
-    & .ContactMessage {
+    & .ContactInfo {
+      width: 100%;
+      & .ContactName {
+        margin: 0 0 5px 0;
+        font-size: 20px;
+        font-weight: 500;
+      }
+      & .ContactMessage {
+        font-size: 14px;
+      }
+    }
+    & .ContactDate {
+      width: 100%;
+      margin-right: 20px;
+      font-size: 12px;
+      white-space: nowrap;
     }
   }
 }

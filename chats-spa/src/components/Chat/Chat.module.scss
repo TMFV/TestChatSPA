@@ -1,0 +1,14 @@
+@import '../../App.module.scss';
+
+.Chat {
+  & .ChatHeader {
+    display: flex;
+    align-items: center;
+    background-color: $base-background-color;
+    font-size: 20px;
+    font-weight: 400;
+    & .ChatAvatar {
+      padding: 20px;
+    }
+  }
+}

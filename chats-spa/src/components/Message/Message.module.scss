@@ -1,0 +1,46 @@
+.Message {
+  & .MessageContentUser {
+    display: flex;
+    justify-content: end;
+    margin: 10px 0 0 10px;
+    & .MessageText {
+      margin: 0 10px 0 0;
+      padding: 15px;
+      border-radius: 19px;
+      color: #272727;
+      background-color: #dcdcdc;
+      font-size: 12px;
+      font-weight: 500;
+      text-align: start;
+    }
+  }
+  & .MessageContent {
+    display: flex;
+    margin: 10px 0 0 10px;
+    & .MessageText {
+      margin: 0 0 0 10px;
+      padding: 15px;
+      border-radius: 19px;
+      color: #ffffff;
+      background-color: #343948;
+      font-size: 12px;
+      font-weight: 500;
+      text-align: start;
+    }
+  }
+  & .MessageDate {
+    display: block;
+    margin: 10px 0 0 67px;
+    color: #606060;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  & .MessageDateUser {
+    display: block;
+    margin: 10px 10px 0 0;
+    color: #606060;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: end;
+  }
+}
